@@ -1,0 +1,29 @@
+{
+  "name": "sistemacdt-v2",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "css-build": "node-sass --omit-source-map-url sass/ css/",
+    "css-watch": "npm run css-build -- --watch",
+    "preview": "vite preview --port 4173",
+    "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore"
+  },
+  "dependencies": {
+    "buefy": "^0.9.23",
+    "firebase": "^9.23.0",
+    "firebaseui": "^6.0.2",
+    "pinia": "^2.0.16",
+    "sweetalert2": "^11.7.12",
+    "vue": "^2.7.7",
+    "vue-router": "^3.5.4"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-legacy": "^2.0.0",
+    "@vitejs/plugin-vue2": "^1.1.2",
+    "eslint": "^8.5.0",
+    "eslint-plugin-vue": "^9.0.0",
+    "terser": "^5.14.2",
+    "vite": "^3.0.2"
+  }
+}
